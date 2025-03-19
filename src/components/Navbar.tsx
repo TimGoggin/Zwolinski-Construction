@@ -37,6 +37,13 @@ const Navbar = () => {
                 <span>{item.name}</span>
               </Link>
             ))}
+            <a
+              href="tel:+12156691263"
+              className="flex items-center space-x-2 bg-zwolinski-burgundy text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-colors"
+            >
+              <Phone className="h-4 w-4" />
+              <span>(215) 669-1263</span>
+            </a>
           </div>
 
           {/* Mobile Navigation Button */}
@@ -69,6 +76,13 @@ const Navbar = () => {
                   <span>{item.name}</span>
                 </Link>
               ))}
+              <a
+                href="tel:+12156691263"
+                className="flex items-center space-x-2 bg-zwolinski-burgundy text-white px-3 py-2 rounded-md hover:bg-opacity-90 transition-colors"
+              >
+                <Phone className="h-4 w-4" />
+                <span>(215) 669-1263</span>
+              </a>
             </div>
           </div>
         )}
