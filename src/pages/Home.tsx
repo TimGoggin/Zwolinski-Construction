@@ -194,11 +194,8 @@ const Home = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-zwolinski-navy">What Our Clients Say</h2>
-          <div className="relative overflow-hidden">
-            <div 
-              className="grid grid-cols-1 md:grid-cols-3 gap-8 transition-all duration-700 ease-in-out transform"
-              style={{ transform: `translateX(-${currentPage * 100}%)` }}
-            >
+          <div className="relative">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 transition-all duration-700 ease-in-out">
               {currentTestimonials.map((testimonial, index) => (
                 <div 
                   key={index} 
@@ -225,13 +222,13 @@ const Home = () => {
             {/* Navigation Buttons */}
             <button 
               onClick={prevPage}
-              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 bg-white p-2 rounded-full shadow-md hover:bg-gray-50 focus:outline-none"
+              className="absolute left-0 top-1/2 -translate-y-1/2 -left-12 bg-white p-2 rounded-full shadow-md hover:bg-gray-50 focus:outline-none"
             >
               <ChevronLeft className="h-6 w-6 text-zwolinski-burgundy" />
             </button>
             <button 
               onClick={nextPage}
-              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 bg-white p-2 rounded-full shadow-md hover:bg-gray-50 focus:outline-none"
+              className="absolute right-0 top-1/2 -translate-y-1/2 -right-12 bg-white p-2 rounded-full shadow-md hover:bg-gray-50 focus:outline-none"
             >
               <ChevronRight className="h-6 w-6 text-zwolinski-burgundy" />
             </button>
