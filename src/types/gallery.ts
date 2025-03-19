@@ -54,11 +54,7 @@ export const galleryData: GallerySection[] = [
         title: "Luxury Freestanding Bathtub",
         description: "A stunning freestanding bathtub in a well-lit space",
       },
-      {
-        url: "/src/assets/images/gallery/bathrooms/AE644519-8E65-46FE-89B1-43D6799FCCB0.jpg",
-        title: "Modern Shower Design",
-        description: "A contemporary shower with sleek tile patterns",
-      },
+
       {
         url: "/src/assets/images/gallery/bathrooms/E17C29C7-8C4E-46EF-8B4A-55EC2061A103.jpg",
         title: "Artistic Tile Work",
@@ -215,28 +211,10 @@ export const galleryData: GallerySection[] = [
           "A grand kitchen with a large island, pendant lighting, and elegant finishes.",
       },
       {
-        url: "/src/assets/images/gallery/kitchens/IMG_0448.jpg",
-        title: "Classic Brown and White Kitchen",
-        description:
-          "A timeless kitchen design featuring warm brown tones and marble accents.",
-      },
-      {
-        url: "/src/assets/images/gallery/kitchens/IMG_0449-768x1024.jpg",
-        title: "Traditional Elegant Kitchen",
-        description:
-          "A luxurious traditional kitchen with intricate molding and rich wood details.",
-      },
-      {
         url: "/src/assets/images/gallery/kitchens/IMG_0449.jpg",
         title: "Classic Kitchen with Elegant Touch",
         description:
           "A stunning kitchen space with detailed cabinetry and a stylish countertop.",
-      },
-      {
-        url: "/src/assets/images/gallery/kitchens/IMG_0450-768x1024.jpg",
-        title: "Open-Concept Kitchen Design",
-        description:
-          "A beautifully designed kitchen with an open layout and sophisticated details.",
       },
       {
         url: "/src/assets/images/gallery/kitchens/IMG_0450.jpg",
