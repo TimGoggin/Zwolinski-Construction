@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Home, Users, Wrench, Image, Phone, Menu, X } from "lucide-react";
+import { Home, Users, Wrench, Image, MessageSquare, Menu, X, Phone } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -10,7 +10,7 @@ const Navbar = () => {
     { name: "About", path: "/about", icon: Users },
     { name: "Services", path: "/services", icon: Wrench },
     { name: "Gallery", path: "/gallery", icon: Image },
-    { name: "Contact", path: "/contact", icon: Phone },
+    { name: "Contact", path: "/contact", icon: MessageSquare },
   ];
 
   return (
