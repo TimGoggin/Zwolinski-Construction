@@ -13,10 +13,8 @@ const Home = () => {
   const [expandedReviews, setExpandedReviews] = useState<number[]>([]);
 
   const toggleReview = (index: number) => {
-    setExpandedReviews(prev => 
-      prev.includes(index) 
-        ? prev.filter(i => i !== index)
-        : [...prev, index]
+    setExpandedReviews((prev) =>
+      prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index],
     );
   };
   const testimonialsPerPage = 3;
@@ -160,7 +158,7 @@ const Home = () => {
         <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
           <div className="text-white bg-black/30 backdrop-blur-md p-8 rounded-lg max-w-2xl">
             <h1 className="text-5xl font-bold mb-4">
-              <span className="text-zwolinski-burgundy">Building Dreams,</span>
+              <span className="text-zwolinski-navy">Building Dreams,</span>
               <br />
               Delivering Excellence
             </h1>
@@ -204,7 +202,7 @@ const Home = () => {
                   needs and specifications.
                 </p>
                 <Link
-                  to={`/services#${service.toLowerCase().replace(' ', '-')}`}
+                  to={`/services#${service.toLowerCase().replace(" ", "-")}`}
                   className="text-zwolinski-burgundy hover:text-opacity-80 flex items-center"
                 >
                   Learn More <ArrowRight className="ml-1 h-4 w-4" />
@@ -222,7 +220,7 @@ const Home = () => {
             Top-Rated on HomeAdvisor
           </h2>
           <p className="text-2xl text-white">
-            Over 50 Five-Star Reviews and Counting!
+            Over 150 Five-Star Reviews and Counting!
           </p>
           <div className="flex justify-center mt-4">
             {"★★★★★".split("").map((star, index) => (
@@ -267,21 +265,26 @@ const Home = () => {
                         <>
                           <p className="text-gray-600 mb-2">
                             "{testimonial.text.slice(0, 100)}
-                            <span className={`${expandedReviews.includes(index) ? '' : 'hidden'}`}>
+                            <span
+                              className={`${expandedReviews.includes(index) ? "" : "hidden"}`}
+                            >
                               {testimonial.text.slice(100)}
                             </span>
-                            {!expandedReviews.includes(index) && '...'}
-                            "
+                            {!expandedReviews.includes(index) && "..."}"
                           </p>
                           <button
                             onClick={() => toggleReview(index)}
                             className="text-zwolinski-burgundy hover:text-opacity-80 text-sm mb-2"
                           >
-                            {expandedReviews.includes(index) ? 'Read Less' : 'Read More'}
+                            {expandedReviews.includes(index)
+                              ? "Read Less"
+                              : "Read More"}
                           </button>
                         </>
                       ) : (
-                        <p className="text-gray-600 mb-4">"{testimonial.text}"</p>
+                        <p className="text-gray-600 mb-4">
+                          "{testimonial.text}"
+                        </p>
                       )}
                       {testimonial.name && (
                         <p className="font-semibold text-zwolinski-navy">

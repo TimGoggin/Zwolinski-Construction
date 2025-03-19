@@ -485,7 +485,68 @@ export const galleryData: GallerySection[] = [
     id: "decks",
     title: "Decks",
     description: "Custom deck building and renovation",
-    images: [],
+    images: [
+      {
+        url: "/src/assets/images/gallery/decks/Z_IMG_1741.jpg",
+        title: "Elevated Deck with White Railing",
+        description:
+          "A spacious elevated deck with white railings and wooden support beams, providing a great outdoor space.",
+      },
+      {
+        url: "/src/assets/images/gallery/decks/Z_IMG_1743.jpg",
+        title: "Wooden Deck with Outdoor Seating",
+        description:
+          "A cozy wooden deck with outdoor seating and white railings, perfect for relaxing outside.",
+      },
+      {
+        url: "/src/assets/images/gallery/decks/Z_IMG_1744.jpg",
+        title: "Deck Stairway with White Railing",
+        description:
+          "A beautiful deck stairway with white railings leading to the backyard.",
+      },
+      {
+        url: "/src/assets/images/gallery/decks/Z_IMG_1745.jpg",
+        title: "Deck Stairs with Wooden Flooring",
+        description:
+          "An inviting set of deck stairs with wooden flooring and white railings for added safety.",
+      },
+      {
+        url: "/src/assets/images/gallery/decks/Z_IMG_1746.jpg",
+        title: "Underneath Deck Structure",
+        description:
+          "A view from under a deck showcasing the support structure and stairs leading up.",
+      },
+      {
+        url: "/src/assets/images/gallery/decks/Z_Picture_082.jpg",
+        title: "Spacious Wooden Deck with Lattice Skirt",
+        description:
+          "A large wooden deck featuring a lattice skirt for additional support and aesthetic appeal.",
+      },
+      {
+        url: "/src/assets/images/gallery/decks/Z_Picture_084.jpg",
+        title: "Newly Built Wooden Deck",
+        description:
+          "A freshly constructed wooden deck with railing and stairs leading to the backyard.",
+      },
+      {
+        url: "/src/assets/images/gallery/decks/Z_Picture_085.jpg",
+        title: "Deck Stairs Leading to Yard",
+        description:
+          "A beautiful view of a wooden deck staircase leading down to a lush green lawn.",
+      },
+      {
+        url: "/src/assets/images/gallery/decks/Z_zdjecia_zdeck_143.jpg",
+        title: "Deck Construction in Progress",
+        description:
+          "A deck construction project in progress, showcasing the wooden framework and support beams.",
+      },
+      {
+        url: "/src/assets/images/gallery/decks/Z_zdjecia_zdeck_157.jpg",
+        title: "Large Backyard Deck",
+        description:
+          "A large backyard deck made of natural wood, perfect for gatherings and relaxation.",
+      },
+    ],
   },
   {
     id: "additions",
