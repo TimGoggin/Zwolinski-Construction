@@ -607,6 +607,42 @@ export const galleryData: GallerySection[] = [
     id: "garages",
     title: "Garages",
     description: "Garage construction and renovation",
-    images: [],
+    images: [
+      {
+        url: "/src/assets/images/gallery/garages/G_IMG_1650.jpg",
+        title: "Garage Construction",
+        description:
+          "A newly constructed garage with a clean finish and sturdy design.",
+      },
+      {
+        url: "/src/assets/images/gallery/garages/G_IMG_1651.jpg",
+        title: "Spacious Multi-Door Garage",
+        description:
+          "A multi-door garage offering ample storage and parking space.",
+      },
+      {
+        url: "/src/assets/images/gallery/garages/G_Picture_007.jpg",
+        title: "Modern Garage Build",
+        description:
+          "A modern detached garage designed for functionality and durability.",
+      },
+      {
+        url: "/src/assets/images/gallery/garages/G_Picture_008.jpg",
+        title: "Detached Two-Car Garage",
+        description:
+          "A newly built detached garage with space for two vehicles.",
+      },
+      {
+        url: "/src/assets/images/gallery/garages/Z_IMG_1649.jpg",
+        title: "Garage with Side Access",
+        description:
+          "A garage with side door access, providing additional convenience.",
+      },
+      {
+        url: "/src/assets/images/gallery/garages/G_Picture_009.jpg",
+        title: "Classic Styled Garage",
+        description: "A classic style garage with a well-structured design.",
+      },
+    ],
   },
 ];
