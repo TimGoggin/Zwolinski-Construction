@@ -191,61 +191,61 @@ export const galleryData: GallerySection[] = [
     description: "Kitchen remodeling and renovations",
     images: [
       {
-        url: "/src/assets/images/gallery/kitchen/066B618F-8C9D-4EBE-9C6F-9DEB9C5A6792.jpg",
+        url: "/src/assets/images/gallery/kitchens/066B618F-8C9D-4EBE-9C6F-9DEB9C5A6792.jpg",
         title: "Modern Black and White Kitchen",
         description:
           "A sleek modern kitchen with a black marble countertop and white cabinetry.",
       },
       {
-        url: "/src/assets/images/gallery/kitchen/226A76CB-E6D7-428E-A9FD-E1F560C98DB1.jpg",
+        url: "/src/assets/images/gallery/kitchens/226A76CB-E6D7-428E-A9FD-E1F560C98DB1.jpg",
         title: "Spacious Contemporary Kitchen",
         description:
           "A contemporary kitchen featuring a large cooking space and stylish lighting.",
       },
       {
-        url: "/src/assets/images/gallery/kitchen/CA5B0C6A-6448-47E1-A4E9-00B821CE160C.jpg",
+        url: "/src/assets/images/gallery/kitchens/CA5B0C6A-6448-47E1-A4E9-00B821CE160C.jpg",
         title: "Elegant Stainless Steel Kitchen",
         description:
           "A modern kitchen with stainless steel appliances and dark accent cabinets.",
       },
       {
-        url: "/src/assets/images/gallery/kitchen/IMG_0448-768x1024.jpg",
+        url: "/src/assets/images/gallery/kitchens/IMG_0448-768x1024.jpg",
         title: "Luxury Kitchen with Island",
         description:
           "A grand kitchen with a large island, pendant lighting, and elegant finishes.",
       },
       {
-        url: "/src/assets/images/gallery/kitchen/IMG_0448.jpg",
+        url: "/src/assets/images/gallery/kitchens/IMG_0448.jpg",
         title: "Classic Brown and White Kitchen",
         description:
           "A timeless kitchen design featuring warm brown tones and marble accents.",
       },
       {
-        url: "/src/assets/images/gallery/kitchen/IMG_0449-768x1024.jpg",
+        url: "/src/assets/images/gallery/kitchens/IMG_0449-768x1024.jpg",
         title: "Traditional Elegant Kitchen",
         description:
           "A luxurious traditional kitchen with intricate molding and rich wood details.",
       },
       {
-        url: "/src/assets/images/gallery/kitchen/IMG_0449.jpg",
+        url: "/src/assets/images/gallery/kitchens/IMG_0449.jpg",
         title: "Classic Kitchen with Elegant Touch",
         description:
           "A stunning kitchen space with detailed cabinetry and a stylish countertop.",
       },
       {
-        url: "/src/assets/images/gallery/kitchen/IMG_0450-768x1024.jpg",
+        url: "/src/assets/images/gallery/kitchens/IMG_0450-768x1024.jpg",
         title: "Open-Concept Kitchen Design",
         description:
           "A beautifully designed kitchen with an open layout and sophisticated details.",
       },
       {
-        url: "/src/assets/images/gallery/kitchen/IMG_0450.jpg",
+        url: "/src/assets/images/gallery/kitchens/IMG_0450.jpg",
         title: "Luxury Kitchen with Custom Cabinets",
         description:
           "A high-end kitchen with custom cabinetry and ornate lighting fixtures.",
       },
       {
-        url: "/src/assets/images/gallery/kitchen/Z_IMG_1678.jpg",
+        url: "/src/assets/images/gallery/kitchens/Z_IMG_1678.jpg",
         title: "Classic White Kitchen",
         description:
           "A classic white kitchen with a cozy and inviting atmosphere.",
