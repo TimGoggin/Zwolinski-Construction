@@ -34,7 +34,7 @@ const About = () => {
       <section
         className="relative h-[600px] bg-cover bg-center"
         style={{
-          backgroundImage: 'url("/src/assets/images/projects/AboutHero.jpg")'
+          backgroundImage: 'url("/src/assets/images/projects/AboutHero.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-zwolinski-navy bg-opacity-70" />
@@ -47,7 +47,7 @@ const About = () => {
             </h1>
             <p className="text-xl mb-8 max-w-2xl">
               Building trust through quality craftsmanship and exceptional
-              service since 2003.
+              service.
             </p>
             <a
               href="/contact"
@@ -98,8 +98,8 @@ const About = () => {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80"
-                alt="Construction team"
+                src="src/assets/images/projects/aboutLivingRoom.jpg"
+                alt="Living Room"
                 className="rounded-lg shadow-xl"
               />
             </div>
