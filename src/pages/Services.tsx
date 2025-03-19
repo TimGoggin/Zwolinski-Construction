@@ -151,17 +151,20 @@ const Services = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16">
+      <section className="bg-zwolinski-burgundy text-white py-16">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-zwolinski-navy">Ready to Start Your Project?</h2>
-          <p className="text-xl text-gray-600 mb-8">
-            Contact us today for a free consultation and estimate on your construction needs.
+          <h2 className="text-3xl font-bold mb-4">
+            Ready to Start Your Project?
+          </h2>
+          <p className="text-xl mb-8">
+            Contact us today for a free consultation and estimate.
           </p>
-          <a 
+          <a
             href="/contact"
-            className="inline-flex items-center px-8 py-4 bg-zwolinski-burgundy text-white rounded-md hover:bg-opacity-90 transition-colors font-semibold"
+            className="inline-flex items-center px-8 py-4 bg-zwolinski-navy text-white rounded-md hover:bg-opacity-90 transition-colors font-semibold"
           >
-            Get a Free Quote
+            Contact Us Now
+            <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </div>
       </section>
