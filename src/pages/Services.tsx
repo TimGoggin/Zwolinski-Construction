@@ -99,8 +99,14 @@ const Services = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-zwolinski-navy text-white py-20">
-        <div className="max-w-7xl mx-auto px-4">
+      <section
+        className="relative h-[600px] bg-cover bg-center"
+        style={{
+          backgroundImage: 'url("/src/assets/images/projects/servicesHero.jpg")',
+        }}
+      >
+        <div className="absolute inset-0 bg-zwolinski-navy bg-opacity-70" />
+        <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
           <h1 className="text-4xl font-bold mb-6">
             Our <span className="text-zwolinski-burgundy">Services</span>
           </h1>
