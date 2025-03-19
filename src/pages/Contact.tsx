@@ -29,16 +29,11 @@ const Contact = () => {
 
   return (
     <div>
-      {/* Hero Section */}
-      <section className="bg-zwolinski-navy text-white py-20">
+      <section className="py-12">
         <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-4xl font-bold mb-6">
-            <span className="text-zwolinski-burgundy">Contact</span> Us
+          <h1 className="text-5xl font-bold mb-4 text-zwolinski-navy">
+            Contact <span className="text-zwolinski-burgundy">Us</span>
           </h1>
-          <p className="text-xl max-w-3xl">
-            Ready to start your project? Get in touch with us today for a free
-            consultation.
-          </p>
         </div>
       </section>
 
