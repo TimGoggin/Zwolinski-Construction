@@ -195,7 +195,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-zwolinski-navy">What Our Clients Say</h2>
           <div className="relative">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 transition-opacity duration-500 ease-in-out">
               {currentTestimonials.map((testimonial, index) => (
                 <div 
                   key={index} 
@@ -218,7 +218,7 @@ const Home = () => {
                 </div>
               ))}
             </div>
-            
+
             {/* Navigation Buttons */}
             <button 
               onClick={prevPage}
