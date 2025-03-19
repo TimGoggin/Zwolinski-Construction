@@ -130,7 +130,7 @@ const Home = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       nextPage();
-    }, 5000);
+    }, 7000);
 
     return () => clearInterval(timer);
   }, []);
@@ -194,8 +194,11 @@ const Home = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-zwolinski-navy">What Our Clients Say</h2>
-          <div className="relative">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 transition-opacity duration-500 ease-in-out">
+          <div className="relative overflow-hidden">
+            <div 
+              className="grid grid-cols-1 md:grid-cols-3 gap-8 transition-all duration-700 ease-in-out transform"
+              style={{ transform: `translateX(-${currentPage * 100}%)` }}
+            >
               {currentTestimonials.map((testimonial, index) => (
                 <div 
                   key={index} 
