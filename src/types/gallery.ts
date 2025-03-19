@@ -429,25 +429,25 @@ export const galleryData: GallerySection[] = [
           "A cozy dining area with rich, reddish-brown hardwood floors, natural lighting, and elegant decor.",
       },
       {
-        url: "/src/assets/images/gallery/flooring/IMG_0459.png",
+        url: "src/assets/images/gallery/flooring/Z_Picture_100.jpg",
         title: "Deep Brown Hardwood Kitchen Flooring",
         description:
           "A stunning kitchen with deep brown hardwood floors, contrasting with white cabinetry and dark countertops.",
       },
       {
-        url: "/src/assets/images/gallery/flooring/IMG_0460.png",
+        url: "src/assets/images/gallery/flooring/Z_IMG_0477.jpg",
         title: "Sophisticated Parquet Hallway Flooring",
         description:
           "A sophisticated hallway with parquet-style wood flooring, classical furniture, and warm lighting.",
       },
       {
-        url: "/src/assets/images/gallery/flooring/IMG_0461.png",
+        url: "src/assets/images/gallery/flooring/Z_IMG_0476.jpg",
         title: "Golden Hardwood Kitchen Flooring",
         description:
           "A kitchen with golden hardwood floors, featuring an island with a built-in oven and high-top seating.",
       },
       {
-        url: "/src/assets/images/gallery/flooring/IMG_0462.png",
+        url: "src/assets/images/gallery/flooring/Z_IMG_0475-1.jpg",
         title: "Rustic Wide-Plank Wood Flooring",
         description:
           "An inviting living space with rustic wide-plank wood flooring, cozy seating, and a stone fireplace.",
