@@ -188,18 +188,12 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-zwolinski-navy">What Our Clients Say</h2>
           <div className="relative">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 overflow-hidden">
-              <div 
-                className="col-span-full grid grid-cols-1 md:grid-cols-3 gap-8 transition-all duration-700 ease-in-out transform"
-                style={{
-                  transform: `translateX(-${currentPage * 100}%)`,
-                  opacity: 1,
-                }}
-              >
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="col-span-full grid grid-cols-1 md:grid-cols-3 gap-8 transition-all duration-500 ease-out transform">
               {currentTestimonials.map((testimonial, index) => (
                 <div 
                   key={index} 
-                  className="bg-white p-6 rounded-lg shadow-md border border-gray-100 transition-all duration-700 transform hover:scale-105 hover:shadow-lg hover:border-zwolinski-burgundy"
+                  className="bg-white p-6 rounded-lg shadow-md border border-gray-100 transition-all duration-500 transform hover:scale-105 hover:shadow-lg"
                 >
                   <div className="flex items-center gap-4 mb-4">
                     <div className="flex items-center text-zwolinski-burgundy">
