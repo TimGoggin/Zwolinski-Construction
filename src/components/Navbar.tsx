@@ -1,6 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Home, Users, Wrench, Image, MessageSquare, Menu, X, Phone } from "lucide-react";
+import {
+  Home,
+  Users,
+  Wrench,
+  Image,
+  MessageSquare,
+  Menu,
+  X,
+  Phone,
+} from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -19,7 +28,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center">
             <img
-              src="/src/assets/images/zwolinskismalllogo.png"
+              src="/images/projects/zwolinskismalllogo.png"
               alt="Zwolinski Quality Construction"
               className="h-16"
             />
