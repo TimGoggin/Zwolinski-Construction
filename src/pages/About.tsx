@@ -37,9 +37,8 @@ const About = () => {
           backgroundImage: 'url("/src/assets/images/projects/AboutHero.jpg")',
         }}
       >
-        <div className="absolute inset-0 bg-zwolinski-navy bg-opacity-70" />
         <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
-          <div className="text-white">
+          <div className="text-white bg-black/30 backdrop-blur-md p-8 rounded-lg max-w-2xl">
             <h1 className="text-5xl font-bold mb-4">
               About <span className="text-zwolinski-burgundy">Zwolinski</span>{" "}
               <br />
