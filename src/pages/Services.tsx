@@ -107,12 +107,21 @@ const Services = () => {
       >
         <div className="absolute inset-0 bg-zwolinski-navy bg-opacity-70" />
         <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
-          <h1 className="text-4xl font-bold mb-6">
-            Our <span className="text-zwolinski-burgundy">Services</span>
-          </h1>
-          <p className="text-xl max-w-3xl">
-            Comprehensive construction and remodeling services delivered with expertise and dedication to quality.
-          </p>
+          <div className="text-white">
+            <h1 className="text-5xl font-bold mb-4">
+              Our <span className="text-zwolinski-burgundy">Services</span>
+            </h1>
+            <p className="text-xl mb-8 max-w-2xl">
+              Comprehensive construction and remodeling services delivered with expertise and dedication to quality.
+            </p>
+            <a
+              href="/contact"
+              className="inline-flex items-center px-6 py-3 bg-zwolinski-burgundy text-white rounded-md hover:bg-opacity-90 transition-colors"
+            >
+              Get Started Today
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
+          </div>
         </div>
       </section>
 
