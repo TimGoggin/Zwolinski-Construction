@@ -324,7 +324,68 @@ export const galleryData: GallerySection[] = [
     id: "homes",
     title: "Homes",
     description: "Custom home building and whole-house renovations",
-    images: [],
+    images: [
+      {
+        url: "/src/assets/images/gallery/homes/7A21E7FA-6DEA-456D-8819-97D45514CE45.jpg",
+        title: "Luxury Mediterranean Home",
+        description:
+          "A grand Mediterranean-style home with a beautifully landscaped front yard.",
+      },
+      {
+        url: "/src/assets/images/gallery/homes/209C1C26-F522-4FD7-AF4E-7E324116E069.jpg",
+        title: "Elegant Estate Entry",
+        description:
+          "A close-up view of the stunning entrance to a luxury estate home.",
+      },
+      {
+        url: "/src/assets/images/gallery/homes/D6F27CB7-713C-4083-9180-EEAF4ECF0827.jpg",
+        title: "Lush Front Yard Landscaping",
+        description:
+          "A gorgeous home with a well-manicured lawn and vibrant landscaping.",
+      },
+      {
+        url: "/src/assets/images/gallery/homes/Z_IMG_2030.jpg",
+        title: "Luxury Home Under Construction",
+        description:
+          "An upscale home in the early stages of construction with exposed framing.",
+      },
+      {
+        url: "/src/assets/images/gallery/homes/Z_IMG_2031.jpg",
+        title: "Grand Home Construction Progress",
+        description:
+          "A partially completed luxury home showing exterior details and finishes.",
+      },
+      {
+        url: "/src/assets/images/gallery/homes/Z_IMG_2037.jpg",
+        title: "Custom Home Exterior",
+        description:
+          "A newly built home with custom design elements and Mediterranean features.",
+      },
+      {
+        url: "/src/assets/images/gallery/homes/Z_IMG_2040.jpg",
+        title: "Elegant Arched Back Patio",
+        description:
+          "A stunning home with an arched back patio overlooking the landscape.",
+      },
+      {
+        url: "/src/assets/images/gallery/homes/Z_IMG_2041.jpg",
+        title: "Expansive Home Exterior",
+        description:
+          "A view of the home’s rear elevation featuring large windows and arches.",
+      },
+      {
+        url: "/src/assets/images/gallery/homes/Z_IMG_2043.jpg",
+        title: "Framing Stage of Custom Home",
+        description:
+          "An inside look at the early framing stages of a high-end custom home.",
+      },
+      {
+        url: "/src/assets/images/gallery/homes/Z_IMG_2047.jpg",
+        title: "Luxury Home Entryway Construction",
+        description:
+          "A glimpse into the framing and structural work of a luxury home build.",
+      },
+    ],
   },
   {
     id: "wood-flooring",
