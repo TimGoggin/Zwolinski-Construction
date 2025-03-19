@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import {
   ArrowRight,
   MapPin,
@@ -194,12 +195,12 @@ const Home = () => {
                   Professional {service.toLowerCase()} services tailored to your
                   needs and specifications.
                 </p>
-                <a
-                  href="/services"
+                <Link
+                  to={`/services#${service.toLowerCase().replace(' ', '-')}`}
                   className="text-zwolinski-burgundy hover:text-opacity-80 flex items-center"
                 >
                   Learn More <ArrowRight className="ml-1 h-4 w-4" />
-                </a>
+                </Link>
               </div>
             ))}
           </div>
