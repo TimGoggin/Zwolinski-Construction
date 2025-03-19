@@ -215,6 +215,25 @@ const Home = () => {
         </div>
       </section>
 
+      {/* HomeAdvisor Reviews Banner */}
+      <section className="bg-zwolinski-burgundy py-12">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h2 className="text-4xl font-bold text-white mb-4">
+            Top-Rated on HomeAdvisor
+          </h2>
+          <p className="text-2xl text-white">
+            Over 50 Five-Star Reviews and Counting!
+          </p>
+          <div className="flex justify-center mt-4">
+            {"★★★★★".split("").map((star, index) => (
+              <span key={index} className="text-4xl text-white">
+                {star}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
