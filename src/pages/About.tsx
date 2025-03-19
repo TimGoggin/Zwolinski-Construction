@@ -96,11 +96,11 @@ const About = () => {
                 and service!
               </p>
             </div>
-            <div className="w-full h-[800px] flex items-center justify-center bg-gray-50 rounded-lg">
+            <div className="w-full">
               <img
                 src="src/assets/images/projects/aboutLivingRoom.jpg"
                 alt="Living Room"
-                className="rounded-lg shadow-xl max-w-full max-h-full object-contain p-4"
+                className="rounded-lg shadow-xl w-full max-h-[700px] object-contain"
               />
             </div>
           </div>
