@@ -19,11 +19,30 @@ export const galleryData: GallerySection[] = [
     description: 'Custom bathroom renovations and remodels',
     images: [
       {
-        url: '/src/assets/images/projects/bathrooms/bathroom1.jpg',
+        url: '/src/assets/images/gallery/bathrooms/bathroom1.jpg',
         title: 'Modern Master Bath',
-        description: 'Complete master bathroom renovation with custom tile work'
+        description: 'Elegant master bathroom with custom tilework and glass shower'
       },
-      // Add more bathroom images here
+      {
+        url: '/src/assets/images/gallery/bathrooms/bathroom2.jpg',
+        title: 'Contemporary Bath Remodel',
+        description: 'Contemporary bathroom design with floating vanity'
+      },
+      {
+        url: '/src/assets/images/gallery/bathrooms/bathroom3.jpg',
+        title: 'Luxury Spa Bath',
+        description: 'Luxury bathroom featuring freestanding tub and marble tile'
+      },
+      {
+        url: '/src/assets/images/gallery/bathrooms/bathroom4.jpg',
+        title: 'Guest Bathroom Update',
+        description: 'Modern guest bathroom with custom storage solutions'
+      },
+      {
+        url: '/src/assets/images/gallery/bathrooms/bathroom5.jpg',
+        title: 'Traditional Bath Renovation',
+        description: 'Traditional style bathroom with updated fixtures'
+      }
     ]
   },
   {
