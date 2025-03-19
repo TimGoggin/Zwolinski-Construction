@@ -17,11 +17,12 @@ const Navbar = () => {
     <nav className="bg-zwolinski-navy text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center space-x-2">
-            <span className="font-bold text-2xl">
-              <span className="text-zwolinski-burgundy">ZWOLINSKI</span>
-              <span className="block text-sm text-white">Quality Construction</span>
-            </span>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/src/assets/images/zwolinskismalllogo.png" 
+              alt="Zwolinski Quality Construction"
+              className="h-16"
+            />
           </Link>
 
           {/* Desktop Navigation */}
