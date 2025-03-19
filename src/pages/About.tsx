@@ -1,6 +1,6 @@
 import React from "react";
 import { Award, Users, Clock, Shield } from "lucide-react";
-import AboutHero from "src/assets/images/projects/AboutHero.jpg"; // Assuming AboutHero.jpg is in the same directory
+import AboutHero from "/src/assets/images/projects/AboutHero.jpg";
 
 const About = () => {
   const values = [
@@ -36,7 +36,12 @@ const About = () => {
         <div className="relative max-w-7xl mx-auto px-4">
           {" "}
           {/* Added relative positioning */}
-          <AboutHero /> {/* Replaced the image */}
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${AboutHero})`
+            }}
+          />
           <div className="absolute inset-0 bg-opacity-50"></div>{" "}
           {/* Added a semi-transparent overlay */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
