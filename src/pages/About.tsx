@@ -129,6 +129,25 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      {/* CTA Section */}
+      <section className="bg-zwolinski-burgundy text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-4">
+            Ready to Start Your Project?
+          </h2>
+          <p className="text-xl mb-8">
+            Contact us today for a free consultation and estimate.
+          </p>
+          <a
+            href="/contact"
+            className="inline-flex items-center px-8 py-4 bg-zwolinski-navy text-white rounded-md hover:bg-opacity-90 transition-colors font-semibold"
+          >
+            Contact Us Now
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </a>
+        </div>
+      </section>
     </div>
   );
 };
