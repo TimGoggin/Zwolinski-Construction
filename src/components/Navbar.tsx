@@ -1,25 +1,25 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Home, Users, Wrench, Image, Phone, Menu, X } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Home, Users, Wrench, Image, Phone, Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const navItems = [
-    { name: 'Home', path: '/', icon: Home },
-    { name: 'About', path: '/about', icon: Users },
-    { name: 'Services', path: '/services', icon: Wrench },
-    { name: 'Gallery', path: '/gallery', icon: Image },
-    { name: 'Contact', path: '/contact', icon: Phone },
+    { name: "Home", path: "/", icon: Home },
+    { name: "About", path: "/about", icon: Users },
+    { name: "Services", path: "/services", icon: Wrench },
+    { name: "Gallery", path: "/gallery", icon: Image },
+    { name: "Contact", path: "/contact", icon: Phone },
   ];
 
   return (
-    <nav className="bg-zwolinski-navy text-white">
+    <nav className="text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center">
-            <img 
-              src="/src/assets/images/zwolinskismalllogo.png" 
+            <img
+              src="/src/assets/images/zwolinskismalllogo.png"
               alt="Zwolinski Quality Construction"
               className="h-16"
             />
@@ -45,7 +45,11 @@ const Navbar = () => {
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 rounded-md hover:bg-zwolinski-burgundy"
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </button>
           </div>
         </div>
