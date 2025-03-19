@@ -67,6 +67,26 @@ export const galleryData: GallerySection[] = [
         url: '/src/assets/images/gallery/bathrooms/IMG_0063.jpg',
         title: 'Master Bath Renovation',
         description: 'Complete master bathroom transformation'
+      },
+      {
+        url: '/src/assets/images/gallery/bathrooms/ACB73AF4-DF60-4118-9A3C-5B26A5EA1D09.jpg',
+        title: 'Spa-Like Master Bath',
+        description: 'Luxurious master bathroom with spa features'
+      },
+      {
+        url: '/src/assets/images/gallery/bathrooms/AE644519-8E65-46FE-89B1-43D6799FCCB0.jpg',
+        title: 'Contemporary Full Bath',
+        description: 'Full bathroom renovation with contemporary style'
+      },
+      {
+        url: '/src/assets/images/gallery/bathrooms/E17C29C7-8C4E-46EF-8B4A-55EC2061A103.jpg',
+        title: 'Elegant Bath Design',
+        description: 'Elegant bathroom with custom tilework'
+      },
+      {
+        url: '/src/assets/images/gallery/bathrooms/IMG_0063.jpg',
+        title: 'Master Bath Renovation',
+        description: 'Complete master bathroom transformation'
       }
     ]
   },
