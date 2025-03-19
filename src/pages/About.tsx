@@ -96,11 +96,11 @@ const About = () => {
                 and service!
               </p>
             </div>
-            <div>
+            <div className="w-full h-[500px]">
               <img
                 src="src/assets/images/projects/aboutLivingRoom.jpg"
                 alt="Living Room"
-                className="rounded-lg shadow-xl"
+                className="rounded-lg shadow-xl w-full h-full object-cover"
               />
             </div>
           </div>
