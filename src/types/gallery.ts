@@ -552,7 +552,56 @@ export const galleryData: GallerySection[] = [
     id: "additions",
     title: "Additions",
     description: "Home additions and expansions",
-    images: [],
+    images: [
+      {
+        url: "/src/assets/images/gallery/additions/G_IMG_1550-1.jpg",
+        title: "Spacious Sunroom Interior",
+        description:
+          "A beautifully lit sunroom with large windows allowing natural sunlight to brighten the space.",
+      },
+      {
+        url: "/src/assets/images/gallery/additions/G_IMG_1552-1.jpg",
+        title: "Sunroom with Skylight",
+        description:
+          "An airy sunroom featuring a vaulted ceiling and skylight, creating a relaxing atmosphere.",
+      },
+      {
+        url: "/src/assets/images/gallery/additions/G_IMG_1551-1.jpg",
+        title: "Cozy Sunroom Corner",
+        description:
+          "A warm and inviting sunroom with plenty of natural light and scenic outdoor views.",
+      },
+      {
+        url: "/src/assets/images/gallery/additions/Z_IMG_1547-1.jpg",
+        title: "New Home Addition Exterior",
+        description:
+          "A newly constructed home addition blending seamlessly with the existing house structure.",
+      },
+      {
+        url: "/src/assets/images/gallery/additions/Z_IMG_1548-1.jpg",
+        title: "Extended Living Space",
+        description:
+          "An expanded home addition with wraparound windows, perfect for extra living space.",
+      },
+      {
+        url: "/src/assets/images/gallery/additions/Z_IMG_1549.jpg",
+        title: "Sunroom Addition from Outside",
+        description:
+          "A well-designed sunroom extension adding both charm and functionality to the home.",
+      },
+      {
+        url: "/src/assets/images/gallery/additions/Z_Picture_089.jpg",
+        title: "Backyard Addition",
+        description:
+          "A modern backyard home addition providing additional space for entertainment and relaxation.",
+      },
+      {
+        url: "/src/assets/images/gallery/additions/Z_Picture_090.jpg",
+        title: "Rear Home Expansion",
+        description:
+          "A rear home expansion with a seamless transition from the existing structure to the new addition.",
+      },
+    ],
   },
   {
     id: "garages",
