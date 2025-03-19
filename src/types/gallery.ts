@@ -391,7 +391,68 @@ export const galleryData: GallerySection[] = [
     id: "wood-flooring",
     title: "Wood Flooring",
     description: "Hardwood floor installation and refinishing",
-    images: [],
+    images: [
+      {
+        url: "/src/assets/images/gallery/flooring/IMG_0453.png",
+        title: "Warm Hardwood Kitchen Flooring",
+        description:
+          "A warm-toned hardwood kitchen floor with a large island, white cabinetry, and pendant lighting.",
+      },
+      {
+        url: "/src/assets/images/gallery/flooring/IMG_0454.png",
+        title: "Elegant Dining and Living Room Flooring",
+        description:
+          "A light oak hardwood floor in a spacious dining and living area with natural lighting and elegant furnishings.",
+      },
+      {
+        url: "/src/assets/images/gallery/flooring/IMG_0455.png",
+        title: "Classic Polished Hallway Flooring",
+        description:
+          "A polished wooden hallway with intricate archways and classic lighting fixtures, creating a luxurious feel.",
+      },
+      {
+        url: "/src/assets/images/gallery/flooring/IMG_0456.png",
+        title: "Bright Kitchen with Natural Oak Flooring",
+        description:
+          "A bright kitchen featuring white cabinetry, a central island, and a natural oak hardwood floor.",
+      },
+      {
+        url: "/src/assets/images/gallery/flooring/IMG_0457.png",
+        title: "Rustic Dark Hardwood Flooring",
+        description:
+          "A rustic-inspired open floor plan with a dark walnut hardwood floor, a brick fireplace, and modern furnishings.",
+      },
+      {
+        url: "/src/assets/images/gallery/flooring/IMG_0458.png",
+        title: "Cozy Dining Area with Rich Hardwood Floors",
+        description:
+          "A cozy dining area with rich, reddish-brown hardwood floors, natural lighting, and elegant decor.",
+      },
+      {
+        url: "/src/assets/images/gallery/flooring/IMG_0459.png",
+        title: "Deep Brown Hardwood Kitchen Flooring",
+        description:
+          "A stunning kitchen with deep brown hardwood floors, contrasting with white cabinetry and dark countertops.",
+      },
+      {
+        url: "/src/assets/images/gallery/flooring/IMG_0460.png",
+        title: "Sophisticated Parquet Hallway Flooring",
+        description:
+          "A sophisticated hallway with parquet-style wood flooring, classical furniture, and warm lighting.",
+      },
+      {
+        url: "/src/assets/images/gallery/flooring/IMG_0461.png",
+        title: "Golden Hardwood Kitchen Flooring",
+        description:
+          "A kitchen with golden hardwood floors, featuring an island with a built-in oven and high-top seating.",
+      },
+      {
+        url: "/src/assets/images/gallery/flooring/IMG_0462.png",
+        title: "Rustic Wide-Plank Wood Flooring",
+        description:
+          "An inviting living space with rustic wide-plank wood flooring, cozy seating, and a stone fireplace.",
+      },
+    ],
   },
   {
     id: "porches",
