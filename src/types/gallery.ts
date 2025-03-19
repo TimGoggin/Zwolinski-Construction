@@ -257,7 +257,68 @@ export const galleryData: GallerySection[] = [
     id: "basements",
     title: "Basements",
     description: "Basement finishing and remodeling",
-    images: [],
+    images: [
+      {
+        url: "/src/assets/images/gallery/basements/3A5F4CCD-CF1F-45C5-B866-276093168604.jpg",
+        title: "Modern Fireplace Basement",
+        description:
+          "A cozy basement featuring a sleek built-in fireplace and elegant lighting.",
+      },
+      {
+        url: "/src/assets/images/gallery/basements/6C563CBA-812C-4666-8ED7-6D05BAB1F7C1.jpg",
+        title: "Home Theater Basement",
+        description:
+          "A high-end home theater setup with black leather seating and accent lighting.",
+      },
+      {
+        url: "/src/assets/images/gallery/basements/6D0CAF2F-1C26-4CD9-8C66-91342F051A76.jpg",
+        title: "Entertainment Basement with Games",
+        description:
+          "A fun-filled basement with sports-themed decor and a basketball arcade game.",
+      },
+      {
+        url: "/src/assets/images/gallery/basements/9F86B7A9-17BA-42F4-9D92-A9440E6C5C4B.jpg",
+        title: "Contemporary Basement Design",
+        description:
+          "A stylish basement with accent lighting and a mix of modern textures.",
+      },
+      {
+        url: "/src/assets/images/gallery/basements/49D68BC0-CB41-418F-9603-27A87DE13DD4.jpg",
+        title: "Basement Bar and Lounge",
+        description:
+          "A well-designed basement bar area with a sleek modern counter and lighting.",
+      },
+      {
+        url: "/src/assets/images/gallery/basements/75C97DAE-A62A-4EC9-AF23-CE1233C355EF.jpg",
+        title: "Starry Ceiling Home Theater",
+        description:
+          "A luxury home theater with a starry ceiling effect and blue LED lighting.",
+      },
+      {
+        url: "/src/assets/images/gallery/basements/B827CA30-C7B4-433F-9988-38E7E12DC180.jpg",
+        title: "Upscale Basement Lounge",
+        description:
+          "A sophisticated lounge space in a basement with elegant decor and seating.",
+      },
+      {
+        url: "/src/assets/images/gallery/basements/C0AB3704-01AD-4147-93B7-EB89D11DB27B.jpg",
+        title: "3D Wall Design Basement",
+        description:
+          "A basement with a modern 3D accent wall and hardwood-style flooring.",
+      },
+      {
+        url: "/src/assets/images/gallery/basements/E8923558-784F-4A5F-B3A5-D38AA4226831.jpg",
+        title: "Stone Bar Basement",
+        description:
+          "A basement bar featuring a textured stone facade and pendant lighting.",
+      },
+      {
+        url: "/src/assets/images/gallery/basements/F063D0DB-6CC7-455E-87FA-335C2820C7EF.jpg",
+        title: "Luxury Basement with Bar",
+        description:
+          "A stylish basement entertainment space with a fully-equipped bar area.",
+      },
+    ],
   },
   {
     id: "homes",
