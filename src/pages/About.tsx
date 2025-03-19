@@ -1,5 +1,5 @@
 import React from "react";
-import { Award, Users, Clock, Shield } from "lucide-react";
+import { Award, Users, Clock, Shield, ArrowRight } from "lucide-react";
 
 const About = () => {
   const values = [
@@ -40,14 +40,22 @@ const About = () => {
         <div className="absolute inset-0 bg-zwolinski-navy bg-opacity-70" />
         <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
           <div className="text-white">
-            <h1 className="text-4xl font-bold mb-6">
+            <h1 className="text-5xl font-bold mb-4">
               About <span className="text-zwolinski-burgundy">Zwolinski</span>{" "}
+              <br />
               Quality Construction
             </h1>
-            <p className="text-xl max-w-3xl">
+            <p className="text-xl mb-8 max-w-2xl">
               Building trust through quality craftsmanship and exceptional
               service since 2003.
             </p>
+            <a
+              href="/contact"
+              className="inline-flex items-center px-6 py-3 bg-zwolinski-burgundy text-white rounded-md hover:bg-opacity-90 transition-colors"
+            >
+              Get Started Today
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </div>
         </div>
       </section>
