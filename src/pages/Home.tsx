@@ -152,7 +152,7 @@ const Home = () => {
         className="relative h-[600px] bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('/src/assets/images/projects/constructionHero.jpg')",
+            "url('/images/projects/constructionHero.jpg')",
         }}
       >
         <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
