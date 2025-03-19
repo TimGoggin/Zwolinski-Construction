@@ -1,6 +1,5 @@
 import React from "react";
 import { Award, Users, Clock, Shield } from "lucide-react";
-import AboutHero from "/src/assets/images/projects/AboutHero.jpg";
 
 const About = () => {
   const values = [
@@ -32,14 +31,12 @@ const About = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-zwolinski-navy text-white py-20">
-        <div className="relative max-w-7xl mx-auto px-4">
-          {" "}
-          {/* Added relative positioning */}
+      <section className="relative h-[500px] bg-zwolinski-navy text-white">
+        <div className="relative max-w-7xl mx-auto px-4 h-full">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: `url(${AboutHero})`
+              backgroundImage: 'url("/src/assets/images/projects/AboutHero.jpg")'
             }}
           />
           <div className="absolute inset-0 bg-opacity-50"></div>{" "}
