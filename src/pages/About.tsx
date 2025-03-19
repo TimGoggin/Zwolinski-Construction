@@ -31,17 +31,15 @@ const About = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative h-[500px] bg-zwolinski-navy text-white">
-        <div className="relative max-w-7xl mx-auto px-4 h-full">
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: 'url("/src/assets/images/projects/AboutHero.jpg")'
-            }}
-          />
-          <div className="absolute inset-0 bg-opacity-50"></div>{" "}
-          {/* Added a semi-transparent overlay */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+      <section
+        className="relative h-[600px] bg-cover bg-center"
+        style={{
+          backgroundImage: 'url("/src/assets/images/projects/AboutHero.jpg")'
+        }}
+      >
+        <div className="absolute inset-0 bg-zwolinski-navy bg-opacity-70" />
+        <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
+          <div className="text-white">
             <h1 className="text-4xl font-bold mb-6">
               About <span className="text-zwolinski-burgundy">Zwolinski</span>{" "}
               Quality Construction
