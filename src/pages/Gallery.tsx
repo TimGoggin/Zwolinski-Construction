@@ -12,23 +12,11 @@ const Gallery = () => {
 
   return (
     <div>
-      {/* Hero Section */}
-      <section
-        className="relative h-[400px] bg-cover bg-center"
-        style={{
-          backgroundImage: 'url("/src/assets/images/projects/galleryHero.jpg")',
-        }}
-      >
-        <div className="absolute inset-0 bg-zwolinski-navy bg-opacity-70" />
-        <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
-          <div className="text-white">
-            <h1 className="text-5xl font-bold mb-4">
-              Our Project <span className="text-zwolinski-burgundy">Gallery</span>
-            </h1>
-            <p className="text-xl mb-8 max-w-2xl">
-              Explore our portfolio of completed projects showcasing our commitment to quality craftsmanship.
-            </p>
-          </div>
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4">
+          <h1 className="text-5xl font-bold mb-4 text-zwolinski-navy">
+            Our Project <span className="text-zwolinski-burgundy">Gallery</span>
+          </h1>
         </div>
       </section>
 
