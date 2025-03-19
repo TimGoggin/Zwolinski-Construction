@@ -37,7 +37,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Contact Information */}
@@ -46,7 +46,7 @@ const Contact = () => {
                 Get In Touch
               </h2>
               <div className="space-y-6">
-                <div className="flex items-start space-x-4">
+                <div className="flex items-start space-x-4 bg-zwolinski-burgundy bg-opacity-10 p-4 rounded-lg hover:bg-opacity-20 transition-all">
                   <Phone className="h-6 w-6 text-zwolinski-burgundy mt-1" />
                   <div>
                     <h3 className="font-semibold text-lg text-zwolinski-navy">
@@ -56,7 +56,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
+                <div className="flex items-start space-x-4 bg-zwolinski-burgundy bg-opacity-10 p-4 rounded-lg hover:bg-opacity-20 transition-all">
                   <Mail className="h-6 w-6 text-zwolinski-burgundy mt-1" />
                   <div>
                     <h3 className="font-semibold text-lg text-zwolinski-navy">
@@ -99,7 +99,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <div>
+            <div className="bg-zwolinski-navy bg-opacity-5 p-8 rounded-lg">
               <h2 className="text-3xl font-bold mb-8 text-zwolinski-navy">
                 Send Us a Message
               </h2>
