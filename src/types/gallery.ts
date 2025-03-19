@@ -458,7 +458,50 @@ export const galleryData: GallerySection[] = [
     id: "porches",
     title: "Porches",
     description: "Custom porch design and construction",
-    images: [],
+    images: [
+      {
+        url: "/src/assets/images/gallery/porches/39C615F9-A3A7-4634-AD24-FB33F21D5A83-1.jpg",
+        title: "Modern Porch with White Railing",
+        description:
+          "A stylish porch featuring a white railing and wooden flooring, blending classic and modern design.",
+      },
+      {
+        url: "/src/assets/images/gallery/porches/4844C19C-BC8E-45AC-9B70-73E4E85A208D-2.jpg",
+        title: "Elegant Porch with Brick Backdrop",
+        description:
+          "A cozy porch with a brick background and polished wooden flooring, ideal for relaxation.",
+      },
+      {
+        url: "/src/assets/images/gallery/porches/ED3CDBC8-D7AF-4D4A-9ECE-36AB0131D286.jpg",
+        title: "Classic White Porch with Steps",
+        description:
+          "A beautiful porch with white wooden railings and elegant steps leading to a polished wooden floor.",
+      },
+      {
+        url: "/src/assets/images/gallery/porches/Z_IMG_1684.jpg",
+        title: "Spacious Porch with Overhead Cover",
+        description:
+          "A large porch with wooden flooring and a sturdy roof covering, perfect for outdoor gatherings.",
+      },
+      {
+        url: "/src/assets/images/gallery/porches/Z_IMG_1683.jpg",
+        title: "Charming Wooden Porch with Garden View",
+        description:
+          "A warm and inviting porch overlooking a lush green backyard, complete with classic wooden flooring.",
+      },
+      {
+        url: "/src/assets/images/gallery/porches/Z_Picture_010.jpg",
+        title: "Rustic Porch with Open Railings",
+        description:
+          "A rustic-style porch with an open railing design and wooden flooring, perfect for a countryside aesthetic.",
+      },
+      {
+        url: "/src/assets/images/gallery/porches/Z_Picture_011.jpg",
+        title: "Wooden Porch Under Construction",
+        description:
+          "A partially completed wooden porch showcasing its strong framework and potential for a cozy outdoor space.",
+      },
+    ],
   },
   {
     id: "decks",
