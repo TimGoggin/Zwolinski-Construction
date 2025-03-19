@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Users, Clock, Shield } from 'lucide-react';
+import AboutHero from './AboutHero'; // Assuming AboutHero.jpg is in the same directory
 
 const About = () => {
   const values = [
@@ -29,13 +30,17 @@ const About = () => {
     <div>
       {/* Hero Section */}
       <section className="bg-zwolinski-navy text-white py-20">
-        <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-4xl font-bold mb-6">
-            About <span className="text-zwolinski-burgundy">Zwolinski</span> Quality Construction
-          </h1>
-          <p className="text-xl max-w-3xl">
-            Building trust through quality craftsmanship and exceptional service since 2003.
-          </p>
+        <div className="relative max-w-7xl mx-auto px-4"> {/* Added relative positioning */}
+          <AboutHero/> {/* Replaced the image */}
+          <div className="absolute inset-0 bg-opacity-50"></div> {/* Added a semi-transparent overlay */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+            <h1 className="text-4xl font-bold mb-6">
+              About <span className="text-zwolinski-burgundy">Zwolinski</span> Quality Construction
+            </h1>
+            <p className="text-xl max-w-3xl">
+              Building trust through quality craftsmanship and exceptional service since 2003.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -85,7 +90,7 @@ const About = () => {
         </div>
       </section>
 
-   
+
     </div>
   );
 };
