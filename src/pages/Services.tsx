@@ -2,7 +2,7 @@ import React from 'react';
 import { 
   Home, Building2, Hammer, PaintBucket, 
   Wrench, Lightbulb, DoorOpen as Door, AppWindow as Window, 
-  Warehouse, Waves, Grid, Droplet 
+  Warehouse, Waves, Grid, Droplet, ArrowRight
 } from 'lucide-react';
 
 const Services = () => {
