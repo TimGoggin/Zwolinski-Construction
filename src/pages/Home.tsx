@@ -10,6 +10,15 @@ import {
 
 const Home = () => {
   const [currentPage, setCurrentPage] = useState(0);
+  const [expandedReviews, setExpandedReviews] = useState<number[]>([]);
+
+  const toggleReview = (index: number) => {
+    setExpandedReviews(prev => 
+      prev.includes(index) 
+        ? prev.filter(i => i !== index)
+        : [...prev, index]
+    );
+  };
   const testimonialsPerPage = 3;
 
   const testimonials = [
@@ -235,12 +244,33 @@ const Home = () => {
                         </span>
                       </div>
                     </div>
-                    <p className="text-gray-600 mb-4">"{testimonial.text}"</p>
-                    {testimonial.name && (
-                      <p className="font-semibold text-zwolinski-navy">
-                        {testimonial.name}
-                      </p>
-                    )}
+                    <div>
+                      {testimonial.text.length > 100 ? (
+                        <>
+                          <p className="text-gray-600 mb-2">
+                            "{testimonial.text.slice(0, 100)}
+                            <span className={`${expandedReviews.includes(index) ? '' : 'hidden'}`}>
+                              {testimonial.text.slice(100)}
+                            </span>
+                            {!expandedReviews.includes(index) && '...'}
+                            "
+                          </p>
+                          <button
+                            onClick={() => toggleReview(index)}
+                            className="text-zwolinski-burgundy hover:text-opacity-80 text-sm mb-2"
+                          >
+                            {expandedReviews.includes(index) ? 'Read Less' : 'Read More'}
+                          </button>
+                        </>
+                      ) : (
+                        <p className="text-gray-600 mb-4">"{testimonial.text}"</p>
+                      )}
+                      {testimonial.name && (
+                        <p className="font-semibold text-zwolinski-navy">
+                          {testimonial.name}
+                        </p>
+                      )}
+                    </div>
                   </div>
                 ))}
               </div>
