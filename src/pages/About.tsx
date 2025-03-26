@@ -97,7 +97,7 @@ const About = () => {
             </div>
             <div className="w-full">
               <img
-                src="src/assets/images/projects/aboutLivingRoom.jpg"
+                src="/images/projects/aboutLivingRoom.jpg"
                 alt="Living Room"
                 className="rounded-lg shadow-xl w-full max-h-[700px] object-contain"
               />
