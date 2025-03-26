@@ -62,9 +62,7 @@ const Contact = () => {
                     <h3 className="font-semibold text-lg text-zwolinski-navy">
                       Email
                     </h3>
-                    <p className="text-gray-600">
-                      info@zwolinskiqualityconstruction.com
-                    </p>
+                    <p className="text-gray-600">arnoldzwolinski@verizon.net</p>
                   </div>
                 </div>
 
