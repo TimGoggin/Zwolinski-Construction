@@ -5,10 +5,17 @@ import { galleryData } from '../types/gallery';
 
 const Gallery = () => {
   const [selectedSection, setSelectedSection] = useState<string | null>(null);
+  const [filteredSections, setFilteredSections] = useState(
+    galleryData.map(section => ({ ...section, showAll: false }))
+  );
 
-  const filteredSections = selectedSection 
-    ? galleryData.filter(section => section.id === selectedSection)
-    : galleryData;
+  useEffect(() => {
+    setFilteredSections(
+      selectedSection
+        ? galleryData.filter(section => section.id === selectedSection).map(section => ({ ...section, showAll: false }))
+        : galleryData.map(section => ({ ...section, showAll: false }))
+    );
+  }, [selectedSection]);
 
   return (
     <div>
@@ -62,28 +69,50 @@ const Gallery = () => {
               )}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {section.images.length > 0 ? (
-                  section.images.map((image, imageIndex) => (
-                    <div
-                      key={imageIndex}
-                      className="relative group overflow-hidden rounded-lg h-[300px]"
-                    >
-                      <img
-                        src={image.url}
-                        alt={image.title}
-                        className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex flex-col justify-end p-6">
-                        <h3 className="text-white text-xl font-semibold mb-2">
-                          {image.title}
-                        </h3>
-                        {image.description && (
-                          <p className="text-white text-sm">
-                            {image.description}
-                          </p>
-                        )}
+                  <>
+                    {section.images.slice(0, section.showAll ? undefined : 3).map((image, imageIndex) => (
+                      <div
+                        key={imageIndex}
+                        className="relative group overflow-hidden rounded-lg h-[300px]"
+                      >
+                        <img
+                          src={image.url}
+                          alt={image.title}
+                          className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex flex-col justify-end p-6">
+                          <h3 className="text-white text-xl font-semibold mb-2">
+                            {image.title}
+                          </h3>
+                          {image.description && (
+                            <p className="text-white text-sm">
+                              {image.description}
+                            </p>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  ))
+                    ))}
+                    {section.images.length > 3 && !section.showAll && (
+                      <div className="col-span-full text-center mt-4">
+                        <button
+                          onClick={() => {
+                            const updatedSections = [...filteredSections];
+                            const sectionIndex = updatedSections.findIndex(s => s.id === section.id);
+                            if (sectionIndex !== -1) {
+                              updatedSections[sectionIndex] = {
+                                ...updatedSections[sectionIndex],
+                                showAll: true
+                              };
+                              setFilteredSections(updatedSections);
+                            }
+                          }}
+                          className="bg-zwolinski-burgundy text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors"
+                        >
+                          Show More
+                        </button>
+                      </div>
+                    )}
+                  </>
                 ) : (
                   <div className="col-span-full text-center py-12 bg-gray-50 rounded-lg">
                     <p className="text-gray-500">Coming soon...</p>
