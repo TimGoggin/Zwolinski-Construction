@@ -188,17 +188,17 @@ const Home = () => {
               {
                 title: "Bathrooms",
                 description: "Transform your bathroom into a luxurious spa-like retreat with our expert remodeling services.",
-                image: "/images/projects/bathrooms/featured.jpg"
+                image: "/images/gallery/bathrooms/IMG_6024.jpg"
               },
               {
                 title: "Kitchens",
                 description: "Create your dream kitchen with custom cabinets, modern appliances, and elegant finishes.",
-                image: "/images/projects/kitchens/featured.jpg"
+                image: "/images/gallery/kitchens/066B618F-8C9D-4EBE-9C6F-9DEB9C5A6792.jpg"
               },
               {
                 title: "Basements",
                 description: "Convert your unused basement into a beautiful living space, entertainment area, or home office.",
-                image: "/images/projects/basements/featured.jpg"
+                image: "/images/gallery/basements/3A5F4CCD-CF1F-45C5-B866-276093168604.jpg"
               }
             ].map((service) => (
               <div
