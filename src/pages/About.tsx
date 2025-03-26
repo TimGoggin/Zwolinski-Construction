@@ -147,6 +147,37 @@ const About = () => {
           </a>
         </div>
       </section>
+
+      <section className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12 text-zwolinski-navy">Our Reviews</h2>
+          <div className="flex gap-8 justify-center items-stretch">
+            <a 
+              href="https://www.google.com/maps/place/Zwolinski+Quality+Construction/@40.3728226,-75.2929357,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6173df954dc45:0x195c7f84fc8e5ab4!8m2!3d40.3728226!4d-75.2929357!16s%2Fg%2F11t82_8j0q?entry=ttu" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex-1 max-w-md bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow p-8 border-2 border-zwolinski-burgundy flex flex-col items-center justify-center text-center"
+            >
+              <img src="/images/google-logo.png" alt="Google Reviews" className="w-24 h-24 mb-4" />
+              <h3 className="text-2xl font-bold text-zwolinski-navy mb-2">Google Reviews</h3>
+              <p className="text-gray-600 mb-4">See what our clients are saying about us on Google</p>
+              <span className="text-zwolinski-burgundy font-semibold">Read Reviews →</span>
+            </a>
+
+            <a 
+              href="https://www.homeadvisor.com/rated.ZwolinskiConstructionLLC.107831265.html" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex-1 max-w-md bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow p-8 border-2 border-zwolinski-burgundy flex flex-col items-center justify-center text-center"
+            >
+              <img src="/images/homeadvisor-logo.png" alt="HomeAdvisor Reviews" className="w-24 h-24 mb-4" />
+              <h3 className="text-2xl font-bold text-zwolinski-navy mb-2">HomeAdvisor Reviews</h3>
+              <p className="text-gray-600 mb-4">Check out our reviews on HomeAdvisor</p>
+              <span className="text-zwolinski-burgundy font-semibold">Read Reviews →</span>
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
