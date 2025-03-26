@@ -56,14 +56,14 @@ const Contact = () => {
                     </h3>
                     <div className="flex space-x-4"> {/* Added div for better layout */}
                       <a
-                        href="tel:+2674716120"
+                        href="tel:+12674716120"
                         className="flex items-center space-x-2 text-gray-700 hover:text-zwolinski-burgundy"
                       >
                         <Phone className="h-5 w-5" />
                         <span>(267) 471-6120</span>
                       </a>
                       <a
-                        href="sms:+2674716120"
+                        href="sms:+12674716120"
                         className="flex items-center space-x-2 text-gray-700 hover:text-zwolinski-burgundy"
                       >
                         <MessageSquare className="h-5 w-5" />
