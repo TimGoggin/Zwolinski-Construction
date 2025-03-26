@@ -47,11 +47,11 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="tel:+12156691263"
+              href="tel:+12674716120"
               className="flex items-center space-x-2 bg-zwolinski-burgundy text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-colors"
             >
               <Phone className="h-4 w-4" />
-              <span>(215) 669-1263</span>
+              <span>(267) 471-6120</span>
             </a>
           </div>
 
@@ -86,11 +86,11 @@ const Navbar = () => {
                 </Link>
               ))}
               <a
-                href="tel:+12156691263"
+                href="tel:+12674716120"
                 className="flex items-center space-x-2 bg-zwolinski-burgundy text-white px-3 py-2 rounded-md hover:bg-opacity-90 transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                <span>(215) 669-1263</span>
+                <span>(267) 471-6120</span>
               </a>
             </div>
           </div>
