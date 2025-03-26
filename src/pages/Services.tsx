@@ -30,19 +30,7 @@ const Services = () => {
         "Ceramic Tile Installation",
       ],
     },
-    {
-      icon: Warehouse,
-      title: "Exterior Construction",
-      description:
-        "Enhance your home's exterior with our quality construction services.",
-      features: [
-        "Custom Deck Building",
-        "Garage Construction",
-        "Siding Installation",
-        "Roofing Services",
-        "Door Installation",
-      ],
-    },
+    
     {
       icon: Window,
       title: "Windows & Doors",
