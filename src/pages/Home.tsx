@@ -187,25 +187,28 @@ const Home = () => {
             {[
               {
                 title: "Bathrooms",
-                description: "Transform your bathroom into a luxurious spa-like retreat with our expert remodeling services.",
-                image: "/images/gallery/bathrooms/IMG_6024.jpg"
+                description:
+                  "Transform your bathroom into a luxurious spa-like retreat with our expert remodeling services.",
+                image: "/images/gallery/bathrooms/IMG_6024.jpg",
               },
               {
                 title: "Kitchens",
-                description: "Create your dream kitchen with custom cabinets, modern appliances, and elegant finishes.",
-                image: "/images/gallery/kitchens/066B618F-8C9D-4EBE-9C6F-9DEB9C5A6792.jpg"
+                description:
+                  "Create your dream kitchen with custom cabinets, modern appliances, and elegant finishes.",
+                image: "/images/gallery/kitchens/IMG_0113.JPG",
               },
               {
                 title: "Basements",
-                description: "Convert your unused basement into a beautiful living space, entertainment area, or home office.",
-                image: "/images/gallery/basements/3A5F4CCD-CF1F-45C5-B866-276093168604.jpg"
-              }
+                description:
+                  "Convert your unused basement into a beautiful living space, entertainment area, or home office.",
+                image: "/images/gallery/basements/IMG_0231.JPG",
+              },
             ].map((service) => (
               <div
                 key={service.title}
                 className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105"
               >
-                <div 
+                <div
                   className="h-48 bg-cover bg-center"
                   style={{ backgroundImage: `url(${service.image})` }}
                 />
@@ -213,9 +216,7 @@ const Home = () => {
                   <h3 className="text-2xl font-bold mb-3 text-zwolinski-navy">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 mb-4">
-                    {service.description}
-                  </p>
+                  <p className="text-gray-600 mb-4">{service.description}</p>
                   <Link
                     to={`/services#${service.title.toLowerCase()}`}
                     className="inline-flex items-center px-4 py-2 bg-zwolinski-burgundy text-white rounded hover:bg-opacity-90 transition-colors"
