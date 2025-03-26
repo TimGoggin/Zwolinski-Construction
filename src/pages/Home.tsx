@@ -151,8 +151,7 @@ const Home = () => {
       <section
         className="relative h-[600px] bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url('/images/projects/constructionHero.jpg')",
+          backgroundImage: "url('/images/projects/constructionHero.jpg')",
         }}
       >
         <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
@@ -164,7 +163,7 @@ const Home = () => {
             </h1>
             <p className="text-xl mb-8 max-w-2xl">
               Zwolinski Quality Construction brings over 20 years of experience
-              in residential and commercial construction to Perkasie and
+              in residential and commercial construction to Bucks County and
               surrounding areas.
             </p>
             <a
@@ -186,9 +185,9 @@ const Home = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              "Residential Construction",
-              "Commercial Construction",
-              "Renovations",
+              "Residential Bathrooms",
+              "Residenial Kitchens",
+              "Residential Basements",
             ].map((service) => (
               <div
                 key={service}

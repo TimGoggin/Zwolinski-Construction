@@ -58,36 +58,40 @@ export const galleryData: GallerySection[] = [
       },
 
       {
-        url: "/images/gallery/bathrooms/E17C29C7-8C4E-46EF-8B4A-55EC2061A103.jpg",
-        title: "Artistic Tile Work",
-        description: "Intricate tile design creating a unique and stylish look",
-      },
-      {
-        url: "/images/gallery/bathrooms/IMG_0063.jpg",
-        title: "Stone-Inspired Shower",
-        description: "A natural stone-themed shower with beautiful patterns",
-      },
-      {
-        url: "/images/gallery/bathrooms/IMG_0064.jpg",
-        title: "Luxurious Ceiling Shower",
+        url: "/images/gallery/bathrooms/newBathroom3.jpg",
+        title: "Modern Bathroom with Freestanding Tub",
         description:
-          "A high-end shower with built-in lighting and overhead water flow",
+          "Contemporary bathroom featuring a rectangular freestanding tub, walk-in shower with mosaic tile floor, and textured wall tile for added elegance.",
       },
       {
-        url: "/images/gallery/bathrooms/IMG_0065.jpg",
-        title: "Modern Stone Shower",
+        url: "/images/gallery/bathrooms/newBathroom4.jpg",
+        title: "Classic Bathroom with Dual Vanity",
         description:
-          "A stone-clad shower with elegant lighting and premium fixtures",
+          "Timeless bathroom design featuring a white double-sink vanity with marble countertop, round mirrors, and elegant wall-mounted lighting.",
       },
       {
-        url: "/images/gallery/bathrooms/IMG_0066.jpg",
-        title: "Elegant Jacuzzi Space",
-        description: "A built-in jacuzzi with stylish stone walls and shelving",
+        url: "/images/gallery/bathrooms/newBathroom5.jpg",
+        title: "Bold Bathroom with Black Cabinetry",
+        description:
+          "Striking modern bathroom with black shaker-style cabinets, marble countertops, and polished black tile flooring for a luxurious finish.",
       },
       {
-        url: "/images/gallery/bathrooms/IMG_0067.jpg",
-        title: "Spacious Bathroom Windows",
-        description: "Large windows bringing in natural light to a cozy space",
+        url: "/images/gallery/bathrooms/newBathroom6.jpg",
+        title: "Elegant Bathroom with Textured Accent Wall",
+        description:
+          "Refined bathroom design featuring a modern backlit mirror, stacked stone accent wall, and marble-look tile throughout for a clean and luxurious aesthetic.",
+      },
+      {
+        url: "/images/gallery/bathrooms/newBathroom7.jpg",
+        title: "Sleek Bathroom with Walk-In Shower",
+        description:
+          "Stylish bathroom featuring a modern freestanding tub, dark-tiled walk-in shower with a rainfall showerhead, and light wood-look tile flooring for contrast.",
+      },
+      {
+        url: "/images/gallery/bathrooms/newBathroom8.jpg",
+        title: "Bathroom with Freestanding Tub and Tile Floor",
+        description:
+          "Bright bathroom featuring a classic freestanding tub, large textured gray tiles, and white vertical paneling for a clean, cozy look.",
       },
       {
         url: "/images/gallery/bathrooms/IMG_0117.jpg",
@@ -135,10 +139,10 @@ export const galleryData: GallerySection[] = [
           "Rustic-style bathroom with a classic wooden vanity and marble countertop.",
       },
       {
-        url: "/images/gallery/bathrooms/IMG_0276.jpg",
-        title: "Sleek Dark Vanity",
+        url: "/images/gallery/bathrooms/newBathroom9.jpg",
+        title: "Serene Bathroom with a Stone Tile Floor",
         description:
-          "A contemporary bathroom vanity with sleek black cabinetry and metallic accents.",
+          "Inviting bathroom with a freestanding tub, earthy stone tile flooring, and a black pebble-tiled walk-in shower, complemented by soft lighting and coastal wall art.",
       },
       {
         url: "/images/gallery/bathrooms/IMG_0278.jpg",
@@ -153,33 +157,34 @@ export const galleryData: GallerySection[] = [
           "A beautiful white bathtub with ambient lighting and detailed decor.",
       },
       {
-        url: "/images/gallery/bathrooms/IMG_0284.jpg",
-        title: "Pebble Shower Floor",
+        url: "/images/gallery/bathrooms/IMG_7284.jpg",
+        title: "Elegant Bathroom with Freestanding Tub and Beige Tile",
         description:
-          "A walk-in shower with a natural pebble-style flooring for a spa-like feel.",
+          "A warm and elegant bathroom design featuring a white freestanding tub, walk-in shower with beige hexagon tiles, and rich brown stone flooring.",
       },
       {
-        url: "/images/gallery/bathrooms/IMG_0389.jpg",
-        title: "Classic Marble Shower",
-        description: "A luxurious marble shower with elegant glass enclosure.",
+        url: "/images/gallery/bathrooms/IMG_6024.jpg",
+        title: "Modern Blue Bathroom with Wood-Look Flooring",
+        description:
+          "Contemporary bathroom with a light blue wall palette, freestanding tub, dual vanities with LED mirrors, and dark wood-look flooring for a spa-like feel.",
       },
       {
-        url: "/images/gallery/bathrooms/Z_338g.jpg",
-        title: "Warm-Tone Bathroom Design",
+        url: "/images/gallery/bathrooms/IMG_4973.jpg",
+        title: "Luxury Bathroom with Arched Window",
         description:
-          "A cozy bathroom with warm earthy colors and classic fixtures.",
+          "Stylish bathroom featuring a freestanding tub, modern vanity with gold fixtures, and a stunning arched window that lets in ample natural light.",
       },
       {
-        url: "/images/gallery/bathrooms/Z_IMG_0461.jpg",
-        title: "Minimalist Bathroom Setup",
+        url: "/images/gallery/bathrooms/IMG_1662_(1).jpg",
+        title: "Chic Walk-In Shower with Patterned Tile",
         description:
-          "A simple yet functional bathroom with a clean modern design.",
+          "Sleek bathroom design with a large walk-in shower, decorative vertical tile inlay, and dual showerheads alongside a white vanity and wood-look floor.",
       },
       {
-        url: "/images/gallery/bathrooms/Z_IMG_0462.jpg",
-        title: "Elegant Vanity Space",
+        url: "/images/gallery/bathrooms/IMG_1245.jpg",
+        title: "Traditional Bathroom with Spa Tub",
         description:
-          "A classic vanity with a stylish granite countertop and contemporary accents.",
+          "Classic style bathroom with a whirlpool tub, rich wood vanity, and mirrored medicine cabinet, creating a cozy and timeless atmosphere.",
       },
     ],
   },
@@ -189,47 +194,96 @@ export const galleryData: GallerySection[] = [
     description: "Kitchen remodeling and renovations",
     images: [
       {
-        url: "/images/gallery/kitchens/066B618F-8C9D-4EBE-9C6F-9DEB9C5A6792.jpg",
-        title: "Modern Black and White Kitchen",
+        url: "/images/gallery/kitchens/IMG_0113.JPG",
+        title: "Modern Basement Bar with Stone Accents",
         description:
-          "A sleek modern kitchen with a black marble countertop and white cabinetry.",
+          "Stylish basement bar featuring a white stone backsplash, dark cabinetry, pendant lighting, and a sleek countertop with integrated sink and seating.",
       },
       {
-        url: "/images/gallery/kitchens/226A76CB-E6D7-428E-A9FD-E1F560C98DB1.jpg",
-        title: "Spacious Contemporary Kitchen",
+        url: "/images/gallery/kitchens/IMG_0577.JPG",
+        title: "Elegant Basement Kitchen with Cherry Cabinets",
         description:
-          "A contemporary kitchen featuring a large cooking space and stylish lighting.",
+          "Warm and inviting kitchen design with rich cherry wood cabinetry, granite countertops, stainless steel appliances, and ambient pendant lighting.",
       },
       {
-        url: "/images/gallery/kitchens/CA5B0C6A-6448-47E1-A4E9-00B821CE160C.jpg",
-        title: "Elegant Stainless Steel Kitchen",
+        url: "/images/gallery/kitchens/IMG_0220.JPG",
+        title: "Contemporary Basement Bar with Blue LED Lighting",
         description:
-          "A modern kitchen with stainless steel appliances and dark accent cabinets.",
+          "A basement bar with modern stonework, under-bar LED lighting, and a cozy seating area, perfect for entertaining guests in style.",
       },
       {
-        url: "/images/gallery/kitchens/IMG_0448-768x1024.jpg",
-        title: "Luxury Kitchen with Island",
+        url: "/images/gallery/kitchens/IMG_6047.jpg",
+        title: "Bright Kitchen with White Cabinets and Wood Flooring",
         description:
-          "A grand kitchen with a large island, pendant lighting, and elegant finishes.",
+          "Open kitchen space featuring white cabinetry, light wood flooring, stainless steel appliances, and a large marble island with seating.",
       },
       {
-        url: "/images/gallery/kitchens/IMG_0449.jpg",
-        title: "Classic Kitchen with Elegant Touch",
+        url: "/images/gallery/kitchens/IMG_3813.jpg",
+        title: "Transitional Basement Bar with Marble Countertops",
         description:
-          "A stunning kitchen space with detailed cabinetry and a stylish countertop.",
+          "A transitional bar design with dark cabinetry, marble countertops, brass accents, and built-in shelving under a mounted TV.",
       },
       {
-        url: "/images/gallery/kitchens/IMG_0450.jpg",
-        title: "Luxury Kitchen with Custom Cabinets",
+        url: "/images/gallery/kitchens/IMG_3812.jpg",
+        title: "Spacious Basement Bar with U-Shaped Counter",
         description:
-          "A high-end kitchen with custom cabinetry and ornate lighting fixtures.",
+          "A luxurious U-shaped bar with marble countertops, navy cabinets, brass fixtures, and pendant lighting in a finished basement setting.",
       },
       {
-        url: "/images/gallery/kitchens/Z_IMG_1678.jpg",
-        title: "Classic White Kitchen",
+        url: "/images/gallery/kitchens/IMG_3810.jpg",
+        title: "Open Basement with Bar and Entertainment Area",
         description:
-          "A classic white kitchen with a cozy and inviting atmosphere.",
+          "Wide-open basement layout featuring a bar with white columns, built-in shelving, and wood-look flooring throughout the entertainment space.",
       },
+      {
+        url: "/images/gallery/kitchens/IMG_1612.jpg",
+        title: "Panoramic Basement Kitchen with Stone Backsplash",
+        description:
+          "Expansive kitchenette area with white stone backsplash, black cabinetry, floating shelves, and durable vinyl plank flooring.",
+      },
+      {
+        url: "/images/gallery/kitchens/69627625222__F558EB19-F978-4A4A-AB67-F468E33EA07F.jpg",
+        title: "Bright Modern Kitchen with Sliding Barn Doors",
+        description:
+          "Clean white kitchen with modern touches including black-framed sliding barn doors, marble waterfall island, and wood-look vinyl floors.",
+      },
+      {
+        url: "/images/gallery/kitchens/IMG_3811.jpg",
+        title: "Classic Basement Bar with Gold Accents",
+        description:
+          "Sophisticated bar area with navy cabinetry, gold hardware and fixtures, quartz countertops, and a mounted TV against a white tile backsplash.",
+      },
+      {
+        url: "/images/gallery/kitchens/IMG_6094.jpg",
+        title: "Bright White Kitchen with Oversized Pendant Lights",
+        description:
+          "Spacious kitchen featuring white cabinetry, gold-accented dome pendant lighting, and a waterfall marble island centerpiece.",
+      },
+      {
+        url: "/images/gallery/kitchens/IMG_6052.jpg",
+        title: "Elegant Kitchen with Wood Flooring and Island Seating",
+        description:
+          "Modern kitchen with wide plank hardwood floors, black island cabinetry, and sleek built-in appliances.",
+      },
+      {
+        url: "/images/gallery/kitchens/IMG_6051.jpg",
+        title: "Custom Kitchen with Ample Storage and Natural Light",
+        description:
+          "Functional and stylish kitchen with white shaker cabinets, built-in range hood, and natural lighting through arched windows.",
+      },
+      {
+        url: "/images/gallery/kitchens/IMG_6049.jpg",
+        title: "Open Kitchen with Statement Lighting and Island Seating",
+        description:
+          "Contemporary open-plan kitchen with bold lighting fixtures, warm wood floors, and a large central island.",
+      },
+      {
+        url: "/images/gallery/kitchens/IMG_6048.jpg",
+        title: "Sleek Kitchen with Marble Surfaces and Pendant Lighting",
+        description:
+          "Refined kitchen with quartz countertops, modern fixtures, and clean white cabinetry paired with wood-tone seating.",
+      },
+
       // Add more kitchen images here
     ],
   },
@@ -297,6 +351,24 @@ export const galleryData: GallerySection[] = [
         title: "Luxury Basement with Bar",
         description:
           "A stylish basement entertainment space with a fully-equipped bar area.",
+      },
+      {
+        url: "/images/gallery/basements/IMG_0231.JPG",
+        title: "Basement Bar with Air Hockey Table",
+        description:
+          "Fun and functional basement featuring a modern bar with mosaic tile backsplash, stone façade, and pendant lighting alongside an air hockey table for entertainment.",
+      },
+      {
+        url: "/images/gallery/basements/IMG_0227.JPG",
+        title: "Contemporary Basement with Entertainment Area",
+        description:
+          "Spacious basement with a sleek TV wall, ambient lighting, and a cozy sectional sofa, perfect for relaxing or entertaining guests.",
+      },
+      {
+        url: "/images/gallery/basements/IMG_0112.JPG",
+        title: "Modern Basement Living Room with Built-ins",
+        description:
+          "Stylish basement setup with built-in shelving, stone fireplace surround, and a large sectional for optimal comfort and viewing experience.",
       },
     ],
   },
