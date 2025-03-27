@@ -19,11 +19,46 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-300 hover:text-zwolinski-burgundy transition-colors">Home</Link></li>
-              <li><Link to="/about" className="text-gray-300 hover:text-zwolinski-burgundy transition-colors">About</Link></li>
-              <li><Link to="/services" className="text-gray-300 hover:text-zwolinski-burgundy transition-colors">Services</Link></li>
-              <li><Link to="/gallery" className="text-gray-300 hover:text-zwolinski-burgundy transition-colors">Gallery</Link></li>
-              <li><Link to="/contact" className="text-gray-300 hover:text-zwolinski-burgundy transition-colors">Contact</Link></li>
+              <li>
+                <Link
+                  to="/"
+                  className="text-gray-300 hover:text-zwolinski-burgundy transition-colors"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/about"
+                  className="text-gray-300 hover:text-zwolinski-burgundy transition-colors"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services"
+                  className="text-gray-300 hover:text-zwolinski-burgundy transition-colors"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/gallery"
+                  className="text-gray-300 hover:text-zwolinski-burgundy transition-colors"
+                >
+                  Gallery
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  className="text-gray-300 hover:text-zwolinski-burgundy transition-colors"
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -55,7 +90,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/people/Zwolinski-Quality-Construction-Co/61559520404180/"
                 className="text-gray-300 hover:text-zwolinski-burgundy"
               >
                 <Facebook className="h-6 w-6" />
