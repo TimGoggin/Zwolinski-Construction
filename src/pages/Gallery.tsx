@@ -77,7 +77,7 @@ const Gallery = () => {
                       >
                         <img
                           src={image.url}
-                          alt={image.title}
+                          alt={image.description || image.title}
                           className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex flex-col justify-end p-6">
