@@ -1,11 +1,11 @@
 
 import React from 'react';
-import { Link, useRouteError } from 'react-router-dom';
+import { Link, useRouteError, isRouteErrorResponse } from 'react-router-dom';
 import { Home } from 'lucide-react';
 
 const Error = () => {
-  const error: any = useRouteError();
-  const is404 = error?.status === 404;
+  const error = useRouteError();
+  const is404 = isRouteErrorResponse(error) && error.status === 404;
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">

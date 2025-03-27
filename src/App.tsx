@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Error from './components/Error';
@@ -10,26 +11,49 @@ import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Reviews from "./pages/Reviews";
 
+const Layout = ({ children }: { children: React.ReactNode }) => (
+  <div className="min-h-screen flex flex-col">
+    <Navbar />
+    <main className="flex-grow">{children}</main>
+    <Footer />
+  </div>
+);
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout><Home /></Layout>,
+    errorElement: <Error />,
+  },
+  {
+    path: "/about",
+    element: <Layout><About /></Layout>,
+    errorElement: <Error />,
+  },
+  {
+    path: "/services",
+    element: <Layout><Services /></Layout>,
+    errorElement: <Error />,
+  },
+  {
+    path: "/gallery",
+    element: <Layout><Gallery /></Layout>,
+    errorElement: <Error />,
+  },
+  {
+    path: "/contact",
+    element: <Layout><Contact /></Layout>,
+    errorElement: <Error />,
+  },
+  {
+    path: "/reviews",
+    element: <Layout><Reviews /></Layout>,
+    errorElement: <Error />,
+  },
+]);
+
 function App() {
-  return (
-    <Router>
-      <div className="min-h-screen flex flex-col">
-        <Navbar />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} errorElement={<Error />} />
-            <Route path="/about" element={<About />} errorElement={<Error />} />
-            <Route path="/services" element={<Services />} errorElement={<Error />} />
-            <Route path="/gallery" element={<Gallery />} errorElement={<Error />} />
-            <Route path="/contact" element={<Contact />} errorElement={<Error />} />
-            <Route path="/reviews" element={<Reviews />} errorElement={<Error />} />
-            <Route path="*" element={<Error />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
