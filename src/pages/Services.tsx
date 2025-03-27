@@ -132,6 +132,43 @@ const Services = () => {
         </div>
       </section>
 
+      {/* Fast Completion */}
+      <section className="py-16 bg-zwolinski-burgundy text-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold mb-4">Fast Project Completion</h2>
+            <p className="text-xl max-w-3xl mx-auto">
+              At Zwolinski Quality Construction, we understand that time is valuable. 
+              Our experienced team works efficiently to complete your projects quickly 
+              without compromising on quality.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white/10 backdrop-blur p-6 rounded-lg text-center">
+              <h3 className="text-2xl font-bold mb-3">Efficient Planning</h3>
+              <p>
+                Detailed project planning and preparation ensures smooth execution
+                and minimal delays.
+              </p>
+            </div>
+            <div className="bg-white/10 backdrop-blur p-6 rounded-lg text-center">
+              <h3 className="text-2xl font-bold mb-3">Skilled Team</h3>
+              <p>
+                Our experienced professionals work together seamlessly to complete
+                projects on schedule.
+              </p>
+            </div>
+            <div className="bg-white/10 backdrop-blur p-6 rounded-lg text-center">
+              <h3 className="text-2xl font-bold mb-3">Clear Communication</h3>
+              <p>
+                Regular updates and transparent communication keep your project
+                moving forward efficiently.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Service Areas */}
       <section className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4">
