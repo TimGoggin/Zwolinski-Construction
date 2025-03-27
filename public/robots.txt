@@ -1,16 +1,20 @@
 
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /reviews
 
-# Prevent all crawlers from accessing the site
 User-agent: Googlebot
-Disallow: /
+Allow: /
+Disallow: /reviews
 
 User-agent: Bingbot
-Disallow: /
+Allow: /
+Disallow: /reviews
 
 User-agent: DuckDuckBot
-Disallow: /
+Allow: /
+Disallow: /reviews
 
 User-agent: Slurp
-Disallow: /
+Allow: /
+Disallow: /reviews
