@@ -81,14 +81,13 @@ const Services = () => {
       <section
         className="relative h-[600px] bg-cover bg-center"
         style={{
-          backgroundImage:
-            'url("/images/projects/servicesHero.jpg")',
+          backgroundImage: 'url("/images/projects/servicesHero.jpg")',
         }}
       >
         <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
           <div className="text-white bg-black/30 backdrop-blur-md p-8 rounded-lg max-w-2xl">
             <h1 className="text-5xl font-bold mb-4">
-              Our <span className="text-zwolinski-navy">Services</span>
+              Our <span className="text-zwolinski-burgundy">Services</span>
             </h1>
             <p className="text-xl mb-8 max-w-2xl">
               Comprehensive construction and remodeling services delivered with

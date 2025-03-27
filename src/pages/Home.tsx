@@ -157,7 +157,7 @@ const Home = () => {
         <div className="relative max-w-7xl mx-auto px-4 h-full flex items-center">
           <div className="text-white bg-black/30 backdrop-blur-md p-8 rounded-lg max-w-2xl">
             <h1 className="text-5xl font-bold mb-4">
-              <span className="text-zwolinski-navy">Building Dreams,</span>
+              <span className="text-zwolinski-burgundy">Building Dreams,</span>
               <br />
               Delivering Excellence
             </h1>
