@@ -1,6 +1,4 @@
-
 import React, { useState, useEffect } from 'react';
-import { ArrowRight } from 'lucide-react';
 import { galleryData } from '../types/gallery';
 
 const Gallery = () => {
@@ -17,6 +15,16 @@ const Gallery = () => {
     );
   }, [selectedSection]);
 
+  const toggleShowAll = (sectionId: string) => {
+    setFilteredSections(prev =>
+      prev.map(section =>
+        section.id === sectionId
+          ? { ...section, showAll: !section.showAll }
+          : section
+      )
+    );
+  };
+
   return (
     <div>
       <section className="py-12">
@@ -27,15 +35,14 @@ const Gallery = () => {
         </div>
       </section>
 
-      {/* Category Navigation */}
       <section className="py-8 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-wrap gap-4 justify-center">
             <button
               onClick={() => setSelectedSection(null)}
               className={`px-4 py-2 rounded-md transition-colors ${
-                !selectedSection 
-                  ? 'bg-zwolinski-burgundy text-white' 
+                !selectedSection
+                  ? 'bg-zwolinski-burgundy text-white'
                   : 'bg-white text-zwolinski-navy hover:bg-gray-100'
               }`}
             >
@@ -58,72 +65,54 @@ const Gallery = () => {
         </div>
       </section>
 
-      {/* Gallery Grid */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
           {filteredSections.map((section) => (
             <div key={section.id} className="mb-16">
-              <h2 className="text-3xl font-bold mb-4 text-zwolinski-navy">{section.title}</h2>
+              <h2 className="text-3xl font-bold mb-4 text-zwolinski-navy">
+                {section.title}
+              </h2>
               {section.description && (
                 <p className="text-gray-600 mb-8">{section.description}</p>
               )}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {section.images.length > 0 ? (
-                  <>
-                    {section.images.slice(0, section.showAll ? undefined : 3).map((image, imageIndex) => (
-                      <div
-                        key={imageIndex}
-                        className="relative group overflow-hidden rounded-lg h-[300px]"
-                      >
-                        <img
-                          src={image.url}
-                          alt={image.description || image.title}
-                          className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex flex-col justify-end p-6">
-                          <h3 className="text-white text-xl font-semibold mb-2">
-                            {image.title}
-                          </h3>
-                          {image.description && (
-                            <p className="text-white text-sm">
-                              {image.description}
-                            </p>
-                          )}
-                        </div>
+                {section.images
+                  .slice(0, section.showAll ? undefined : 6)
+                  .map((image, imageIndex) => (
+                    <div
+                      key={imageIndex}
+                      className="relative group overflow-hidden rounded-lg h-[300px]"
+                    >
+                      <img
+                        src={image.url}
+                        alt={image.description || image.title}
+                        className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h3 className="text-white text-xl font-semibold mb-2">
+                          {image.title}
+                        </h3>
+                        {image.description && (
+                          <p className="text-gray-200">{image.description}</p>
+                        )}
                       </div>
-                    ))}
-                    {section.images.length > 3 && !section.showAll && (
-                      <div className="col-span-full text-center mt-4">
-                        <button
-                          onClick={() => {
-                            const updatedSections = [...filteredSections];
-                            const sectionIndex = updatedSections.findIndex(s => s.id === section.id);
-                            if (sectionIndex !== -1) {
-                              updatedSections[sectionIndex] = {
-                                ...updatedSections[sectionIndex],
-                                showAll: true
-                              };
-                              setFilteredSections(updatedSections);
-                            }
-                          }}
-                          className="bg-zwolinski-burgundy text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors"
-                        >
-                          Show More
-                        </button>
-                      </div>
-                    )}
-                  </>
-                ) : (
-                  <div className="col-span-full text-center py-12 bg-gray-50 rounded-lg">
-                    <p className="text-gray-500">Coming soon...</p>
-                  </div>
-                )}
+                    </div>
+                  ))}
               </div>
+              {section.images.length > 6 && (
+                <div className="mt-8 text-center">
+                  <button
+                    onClick={() => toggleShowAll(section.id)}
+                    className="bg-zwolinski-burgundy text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-colors"
+                  >
+                    {section.showAll ? 'Show Less' : 'Show More'}
+                  </button>
+                </div>
+              )}
             </div>
           ))}
         </div>
       </section>
-
       {/* CTA Section */}
       <section className="bg-zwolinski-burgundy text-white py-16">
         <div className="max-w-7xl mx-auto px-4 text-center">
